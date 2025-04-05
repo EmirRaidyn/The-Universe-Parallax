@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.space-bg {
+  background-image: url("../images/peakpx (7).jpg");
+}
+
+.black-hole-bg {
+  background-image: url("../images/peakpx (4).jpg");
+}
+
+.planets-bg {
+  background-image: url("../images/peakpx (6).jpg");
+}
+
+.nebula-bg {
+  background-image: url("../images/peakpx (5).jpg");
+}
+
+.content {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 30px;
+}
+
+.first-content, .third-content {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.second-content, .fourth-content {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.first-content h1, .second-content h1, .third-content h1, .fourth-content h1 {
+  margin: 0;
+}
+
+.first-content p, .second-content p, .third-content p, .fourth-content p {
+  margin: 10px 0;
+}
+
+.first-content, .second-content, .third-content, .fourth-content {
+  padding: 20px;
+}
